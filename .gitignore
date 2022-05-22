@@ -1,0 +1,6 @@
+*.lp
+*.csv
+*.xlsx
+*.code-workspace
+*.pyc
+__pycache__
