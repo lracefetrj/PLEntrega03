@@ -1,10 +1,13 @@
+import sys
 import os
 import xlrd
 import PL03GurobiModeloDieta as pgmd
 
 arquivo = xlrd.open_workbook(os.path.join("", "data", "alimentos-172.xls"))
 
-persona = "Persona1"
+nrp = str(sys.argv[1])
+
+persona = "Persona" + nrp
 
 sh = arquivo.sheet_by_name(persona)
 categorias = []
