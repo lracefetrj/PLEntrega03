@@ -1,0 +1,196 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"GRB_",
+				"GRB_CONTINUOUS"
+			],
+			[
+				"GRB",
+				"GRB_BINARY"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/lra/OneDrive/CEFET/Dev/CLionProjects/WorkFlowGraspCC/inst/js.json",
+		"/home/lra/OneDrive/CEFET/Disciplinas/Programação Linear/Entregas/03 - 20220524/Modelo/GLPK/executar.sh",
+		"/home/lra/opt/gurobi951/linux64/examples/python/diet.py",
+		"/home/lra/opt/gurobi951/linux64/examples/c++/diet_c++.cpp",
+		"/home/lra/OneDrive/CEFET/Disciplinas/Programação Linear/Entregas/03 - 20220524/Modelo/GLPK/ec1.mod",
+		"/home/lra/OneDrive/CEFET/Disciplinas/Programação Linear/Entregas/03 - 20220524/Modelo/GLPK/ec2.mod",
+		"/home/lra/OneDrive/CEFET/Disciplinas/Programação Linear/Entregas/03 - 20220524/Modelo/GLPK/ec3.mod",
+		"/home/lra/OneDrive/CEFET/Dev/CLionProjects/GraspCC/inst/js.json",
+		"/home/lra/opt/gurobi951/linux64/examples/c++/mip1_c++.cpp",
+		"/home/lra/opt/gurobi951/linux64/examples/build/Makefile",
+		"/home/lra/opt/gurobi951/linux64/examples/c++/simples_exemplo_c++.cpp",
+		"/home/lra/opt/gurobi951/linux64/examples/build/Makefile-Original",
+		"/home/lra/opt/gurobi951/linux64/examples/build/gc_pwl_c",
+		"/home/lra/OneDrive/CEFET/Disciplinas/Programação Linear/Entregas/03 - 20220524/NOTAS TRABALHO FINAL",
+		"/home/lra/OneDrive/CEFET/Dev/CLionProjects/GraspCC/inst/instance-luis.json",
+		"/media/lra/a8a32a49-6b72-4bd2-b6af-9b8c93e55cde1/dev/tetrix/src/motor.c",
+		"/home/lra/OneDrive/CEFET/Dev/CLionProjects/GraspCC/inst/instance-f22-sbb-atualizado.json",
+		"/home/lra/OneDrive/CEFET/Dev/CLionProjects/GraspCC/inst/instance_f22-sbb-atualizado.txt",
+		"/home/lra/OneDrive/CEFET/Dev/CLionProjects/GraspCC/inst/js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\t",
+			"\\t"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			" & "
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C Single File.sublime-build",
+	"project": "workspace.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 323.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,11 +1,12 @@
 import sys
 import os
 import xlrd
-import PL03GurobiModeloDieta as pgmd
+import PL03GurobiModeloDieta as Pgmd
 
-arquivo = xlrd.open_workbook(os.path.join("", "data", "alimentos-172.xls"))
+nma = "Alimentos-400-SG.xls"
+nrp = "3" #str(sys.argv[1])
 
-nrp = str(sys.argv[1])
+arquivo = xlrd.open_workbook(os.path.join("", "data", nma))
 
 persona = "Persona" + nrp
 
@@ -20,9 +21,22 @@ while True:
         categorias.append(c)
         qtdMinima[c] = float(sh.cell_value(i, 1))
         qtdMaxima[c] = float(sh.cell_value(i, 2))
-        i = i + 1
+        i += 1
     except IndexError:
         break
+
+#indicadores = []
+#indValor = {}
+#i = 1
+#while True:
+#    try:
+#        ind = sh.cell_value(i, 4)
+#        if ind:
+#            indicadores.append(ind)
+#            indValor[ind] = int(sh.cell_value(i, 5))
+#        i += 1
+#    except IndexError:
+#        break
 
 sh = arquivo.sheet_by_name("Alimentos")
 alimentos = []
@@ -33,7 +47,7 @@ while True:
         f = int(sh.cell_value(i, 0))
         alimentos.append(f)
         carboidratos[f] = float(sh.cell_value(i, 1))
-        i = i + 1
+        i += 1
     except IndexError:
         break
 
@@ -45,6 +59,12 @@ for alimento in alimentos:
     for categoria in categorias:
         nutrientes[alimento, categoria] = float(sh.cell_value(i, j))
         j += 1
+
+    #for indicador in indicadores:
+    #    nutrientes[alimento, indicador] = int(sh.cell_value(i, j))
+    #    j += 1
+
     i += 1
 
-pgmd.solucionar(persona, categorias, qtdMinima, qtdMaxima, alimentos, carboidratos, nutrientes)
+#Pgmd.solucionar(persona, categorias, qtdMinima, qtdMaxima, indicadores, indValor, alimentos, carboidratos, nutrientes)
+Pgmd.solucionar(persona, categorias, qtdMinima, qtdMaxima, alimentos, carboidratos, nutrientes)
