@@ -3,8 +3,8 @@ import os
 import xlrd
 import PL03GurobiModeloDieta as Pgmd
 
-nma = "Alimentos-400-SG.xls"
-nrp = "3" #str(sys.argv[1])
+nma = "Alimentos-400-SL.xls"
+nrp = "4" #str(sys.argv[1])
 
 arquivo = xlrd.open_workbook(os.path.join("", "data", nma))
 

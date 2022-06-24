@@ -24,7 +24,7 @@ def solucionar(persona, categorias, qtdMinNutrientes, qtdMaxNutrientes, alimento
     #        m.addConstr( (nutrientes[a, i] * porcao[a] <= indValor[i] * porcao[a]),  name="ind[%d,%s]" % (a, i))
    
     #Incluir restrição da porção
-    m.addConstr(porcao.sum() <= 15)
+    m.addConstr(porcao.sum() <= 20)
     
     for a in alimentos:
         m.addConstr( porcao[a] == [0, 3])
